@@ -116,6 +116,36 @@ public class CreatePattern {
 			}
 			System.out.println();
 		}
+		
+		
+		
+		System.out.println();
+		System.out.println("180 degree reverse Half Pyramid");
+		System.out.println();
+		
+		/*
+		    ****
+		     ***
+		      **
+		       *
+		*/
+		
+		// out loop row
+		for(int i=4;i>=1;i--) {
+			
+			// loop for printing space : Remember 'i'
+			for(int space=1;space<=(4-i);space++) {
+				System.out.print(" ");
+			}
+			
+			// column : loop for printing star
+			for(int j=1;j<=i;j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	
+
 	}
 
 }
